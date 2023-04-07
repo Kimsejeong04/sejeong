@@ -11,7 +11,7 @@ while True:
         outkum = inkum - charge
         if outkum < 0:
             print("금액 부족!")
-            break
+            continue
         else:
             print(outkum, "원 반환")
             print("감사합니다.")
